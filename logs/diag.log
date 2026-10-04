@@ -1,0 +1,5 @@
+{"arch": "resnet18", "epochs": 40, "bs": 32, "lr": 0.0004, "wd": 0.0001, "ls": 0.03, "amp": true, "tta": 8, "width": 192, "prof_stride": 8, "aug": true, "pretrained": true, "lossw": [1.0, 0.6, 1.0, 0.6]}
+  fold 0: 1040/260
+    ep   2 sel=2.6794 pos=3.3829 park=7.6607 pair=4.5502 (304s)
+    ep   4 sel=2.6375 pos=3.3316 park=7.5486 pair=4.4457 (638s)
+    ep   6 sel=2.5953 pos=3.2841 park=7.5190 pair=4.3338 (864s)

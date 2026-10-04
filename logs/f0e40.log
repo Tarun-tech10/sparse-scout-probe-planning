@@ -1,0 +1,2 @@
+{"arch": "resnet18", "epochs": 40, "bs": 32, "lr": 0.0004, "wd": 0.0001, "ls": 0.03, "amp": true, "tta": 8, "width": 192, "prof_stride": 8, "aug": true, "pretrained": true, "lossw": [1.0, 0.6, 0.5, 0.6]}
+  fold 0: 1040/260

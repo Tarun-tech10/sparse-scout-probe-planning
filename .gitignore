@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.err
+
+# Out-of-fold prediction arrays are not part of the repo
+*.npz
+*.npy
+*.csv

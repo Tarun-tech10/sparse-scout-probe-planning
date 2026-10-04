@@ -1,0 +1,36 @@
+{"arch": "resnet18", "epochs": 70, "bs": 32, "lr": 0.0004, "wd": 0.0001, "ls": 0.03, "amp": true, "tta": 8, "width": 192, "prof_stride": 8, "aug": true, "pretrained": true, "lossw": [1.0, 0.6, 1.0, 0.6]}
+  fold 0: 1040/260
+    ep   3 sel=2.6654 pos=3.3718 park=7.5686 pair=4.4960 (58s)
+    ep   6 sel=2.6079 pos=3.3010 park=7.5265 pair=4.3655 (107s)
+    ep   9 sel=2.5772 pos=3.2647 park=7.5063 pair=4.2743 (157s)
+    ep  12 sel=2.5520 pos=3.2353 park=7.4538 pair=4.1986 (206s)
+    ep  15 sel=2.5203 pos=3.1981 park=7.4106 pair=4.1205 (256s)
+    ep  18 sel=2.5083 pos=3.1731 park=7.3553 pair=4.0941 (305s)
+    ep  21 sel=2.4784 pos=3.1380 park=7.2737 pair=4.0248 (354s)
+    ep  24 sel=2.4573 pos=3.1112 park=7.1501 pair=3.9620 (403s)
+    ep  27 sel=2.4132 pos=3.0614 park=6.9302 pair=3.8669 (451s)
+    ep  30 sel=2.3393 pos=2.9932 park=6.6347 pair=3.7024 (501s)
+    ep  33 sel=2.2338 pos=2.8858 park=6.1914 pair=3.4503 (552s)
+    ep  36 sel=2.1420 pos=2.7792 park=5.8159 pair=3.2401 (604s)
+    ep  39 sel=2.0113 pos=2.6542 park=5.5731 pair=2.9507 (658s)
+    ep  42 sel=1.8557 pos=2.4941 park=5.2203 pair=2.5743 (714s)
+    ep  45 sel=1.7555 pos=2.3927 park=5.0665 pair=2.3255 (775s)
+    ep  48 sel=1.6226 pos=2.2626 park=4.8592 pair=2.0319 (836s)
+    ep  51 sel=1.4906 pos=2.1180 park=4.7326 pair=1.7149 (897s)
+    ep  54 sel=1.3983 pos=2.0238 park=4.6500 pair=1.4783 (957s)
+    ep  57 sel=1.3323 pos=1.9554 park=4.6108 pair=1.3167 (1016s)
+    ep  60 sel=1.3092 pos=1.9288 park=4.6185 pair=1.2546 (1075s)
+    ep  63 sel=1.2326 pos=1.8405 park=4.5192 pair=1.0969 (1137s)
+    ep  66 sel=1.2068 pos=1.8174 park=4.4985 pair=1.0310 (1197s)
+    ep  69 sel=1.1921 pos=1.8044 park=4.4699 pair=0.9969 (1258s)
+
+== OOF 260 rows ==
+  wts=(1, 0, 0) total 26.655 plan 23.092 park 34.968
+  wts=(0, 1, 0) total 26.332 plan 22.631 park 34.968
+  wts=(0, 0, 1) total 26.542 plan 22.931 park 34.968
+  wts=(0.5, 0.0, 0.5) total 26.531 plan 22.915 park 34.968
+  wts=(0.4, 0.2, 0.4) total 26.531 plan 22.915 park 34.968
+  wts=(0.34, 0.33, 0.33) total 26.644 plan 23.077 park 34.968
+  wts=(0.6, 0.2, 0.2) total 26.650 plan 23.085 park 34.968
+  wts=(0.2, 0.2, 0.6) total 26.542 plan 22.931 park 34.968
+  BEST (1, 0, 0) -> total 26.655 (plan 23.092 park 34.968)
